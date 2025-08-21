@@ -16,7 +16,7 @@ The implementation includes:
 Support Vector Machines (SVMs) are powerful supervised learning models for classification tasks. While **linear SVMs** work on linearly separable data, this implementation extends SVM to **nonlinear classification** using a **polynomial kernel**.
 
 We solve the optimization problem using **cvxopt quadratic programming solver**.
-<img src="https://github.com/OLIVIERKANAMUGIRE/Support-Vector-Machines-from-Scratch/blob/main/svm.png" alt="Results of classification, Visualization of Support vectors" width="400"/>
+<img src="https://github.com/OLIVIERKANAMUGIRE/Support-Vector-Machines-from-Scratch/blob/main/svm.png" alt="Results of classification, Visualization of Support vectors" width="600"/>
 
 
 ---
