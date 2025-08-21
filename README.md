@@ -1,5 +1,29 @@
-#### SVM
-This is the second part of support vector machine where we introduce the nonlinear structures in the data.
-We us the "kernel trick" = moving our problem in a higher dimension space to solve it linearly.
-We show the first three support vectors as well.
-We use small dataset called t030 to test our algorithm
+# Nonlinear Support Vector Machine (SVM) with Polynomial Kernel
+
+This project implements a **Nonlinear Support Vector Machine (SVM)** from scratch in Python using **Quadratic Programming (QP)** with the help of the [cvxopt](https://cvxopt.org/) optimization library.  
+The model uses a **polynomial kernel** to separate non-linearly separable data and is tested on a small dataset (`t030.csv`).  
+
+The implementation includes:
+- Training SVM with a polynomial kernel
+- Identifying support vectors
+- Plotting decision boundaries
+- Train-test split evaluation
+- Accuracy calculation
+
+---
+
+## Project Overview
+Support Vector Machines (SVMs) are powerful supervised learning models for classification tasks. While **linear SVMs** work on linearly separable data, this implementation extends SVM to **nonlinear classification** using a **polynomial kernel**.
+
+We solve the optimization problem using **cvxopt quadratic programming solver**.
+
+---
+
+## Installation
+
+Clone the repository and install the required dependencies:
+
+```bash
+git clone https://github.com/yourusername/nonlinear-svm.git
+cd nonlinear-svm
+pip install -r requirements.txt
