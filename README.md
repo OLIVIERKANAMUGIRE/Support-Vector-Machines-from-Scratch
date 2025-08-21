@@ -24,6 +24,6 @@ We solve the optimization problem using **cvxopt quadratic programming solver**.
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/nonlinear-svm.git
+git clone https://github.com/OLIVIERKANAMUGIRE/Support-Vector-Machines-from-Scratch.git
 cd nonlinear-svm
 pip install -r requirements.txt
