@@ -25,5 +25,3 @@ Clone the repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/OLIVIERKANAMUGIRE/Support-Vector-Machines-from-Scratch.git
-cd nonlinear-svm
-pip install -r requirements.txt
